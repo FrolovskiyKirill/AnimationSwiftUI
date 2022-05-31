@@ -15,7 +15,7 @@ struct LeafView: View {
       Image(systemName: "leaf.fill")
           .resizable()
           .aspectRatio(contentMode: .fill)
-      .foregroundColor(isCurrent ? Color.blue : .red)
+      .foregroundColor(isCurrent ? Color.yellow : .pink)
       .frame(width: 70, height: 70)
       .offset(
         isCurrent

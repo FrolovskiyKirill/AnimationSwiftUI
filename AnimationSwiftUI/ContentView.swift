@@ -24,12 +24,12 @@ struct ContentView: View {
                 }
                 
                 Spacer()
-                Button("Show animation") {
-                    buttonAction()
-                }
+                Button(action: buttonAction, label: {
+                    Text(animationIsShowing ? "Hide animation" :"Show animation")
+                })
                 .padding(40)
                 .font(.largeTitle)
-                .foregroundColor(.white)
+                .foregroundColor(.orange)
             }
         }
     }

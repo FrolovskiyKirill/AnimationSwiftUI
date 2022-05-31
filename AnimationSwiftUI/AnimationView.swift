@@ -38,3 +38,4 @@ struct SpinnerView_Previews : PreviewProvider {
         AnimationView()
     }
 }
+
